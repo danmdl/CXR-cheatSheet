@@ -28,13 +28,25 @@ function popupOptions(){
      btn4.innerText = "YoutubeChannel";
      btn4.addEventListener("click", function(){
          //add here the action that you want
-         window.open("https://www.youtube.com/@reathlete6129/videos", "_blank", "noopener");
+         window.open("https://www.youtube.com/@REATHLETE/videos", "_blank", "noopener");
      });
+
+     var btn5 = document.createElement("button");
+     btn5.innerText = "Counto Scale";
+     btn5.addEventListener("click", function(){
+         //add here the action that you want
+         window.open("./Recursos externos/Manual-V1-1.pdf", "_blank", "noopener");
+     });
+
      // Append the button to the div
      popup.appendChild(btn1);
      popup.appendChild(btn2);
      popup.appendChild(btn3);
      popup.appendChild(btn4);
+     popup.appendChild(btn5);
+
+
+     
  
      // Append the div to the body
      document.body.appendChild(popup);
@@ -60,6 +72,11 @@ function popupOptions(){
  
    
 }
+
+
+
+
+
 
 
 

@@ -19,15 +19,27 @@ function popupOptions(){
         window.open("https://www.youtube.com/watch?v=Bq2LBW9WGgI", "_blank", "noopener");
     });
     var btn3 = document.createElement("button");
-    btn3.innerText = "Empty";
+    btn3.innerText = "Brillá Lamp FAQs";
     btn3.addEventListener("click", function(){
+      //action
+      window.open("https://buymymagiccarpet.com/products/brilla-self-charging-power-outage-everyday-lamp-24", "_blank", "noopener");
         
     });
+    var btn4 = document.createElement("button");
+    btn4.innerText = "Empty";
+    btn4.addEventListener("click", function(){
+      //action
+      window.open("https://www.youtube.com/watch?v=Bq2LBW9WGgI", "_blank", "noopener");
+    });
+        
+    
     
     // Append button to div
     popup.appendChild(btn1);
     popup.appendChild(btn2);
     popup.appendChild(btn3);
+    popup.appendChild(btn4);
+    
  
 
     // Append div to body

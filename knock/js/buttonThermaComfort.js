@@ -1,5 +1,5 @@
-const botonOpciones31 = document.getElementById("brand31");
-botonOpciones31.addEventListener("click", popupOptions);
+const botonOpciones21 = document.getElementById("brand21");
+botonOpciones21.addEventListener("click", popupOptions);
 
 function popupOptions(){
    // div element

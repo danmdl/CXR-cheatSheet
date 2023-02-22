@@ -14,7 +14,6 @@
 
         .about {
             background: rgb(32,123,237);
-            width: 100%;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -78,9 +77,8 @@
             color: white;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-gap: 1px;
-            justify-items: stretch;
-            margin-bottom: 20px;
+            grid-gap: 10px;
+            margin-bottom: 30px;
             
         }
 
@@ -94,7 +92,7 @@
             justify-content: center;
             border-radius: 40px;
             box-shadow: 1px 1px 5px;
-            margin-inline: 20px;
+            margin-left: 5px;
             
             
         }
@@ -141,13 +139,41 @@
             
         }
 
+        .brands-column-4 {
+            grid-column: 4/5;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 30px;
+            padding-bottom: 30px;
+            
+        }
+
+        .brands-column-5 {
+            grid-column: 5/6;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 30px;
+            padding-bottom: 30px;
+            
+            
+        }
+
+        .brands-column-5 div, .brands-column-5 p {
+            opacity: 0.5;
+        }
+
+
         .brands-card h1 {
             font-size: 45px;
                         
         }
 
         .brands-card img {
-            width: 200px;
+            width: 120px;
             height: 45px;
             object-fit:contain;
             padding: 5px;
@@ -183,7 +209,7 @@
             border-radius: 40px;
             box-shadow: 1px 1px 5px;
             align-items: center;
-            margin-inline: 20px;
+            margin-right: 5px;
             
             
             
@@ -259,12 +285,20 @@
             text-shadow: 3px 3px 3px black;
         }
 
-        @media (max-width:1462px) {
-            .left h1{
-            font-size: 35px;
-            }
+        #long-brand {
+            
+            color: white;
         }
-        
+
+        @media (max-width: 1560px) {
+            #long-brand #span2 {
+                display: none;
+              }
+              #long-brand #span1::before {
+                content: "Magic Carpet";
+              }
+             
+        }
         
 
 /* ----------------Status------------------ */  

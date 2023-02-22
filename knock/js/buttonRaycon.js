@@ -1,5 +1,5 @@
-const botonbrand24 = document.getElementById("brand24");
-botonbrand24.addEventListener("click", popupOptions);
+const botonbrand26 = document.getElementById("brand26");
+botonbrand26.addEventListener("click", popupOptions);
 
 function popupOptions(){
   // div element
@@ -13,28 +13,28 @@ function popupOptions(){
      window.open("https://beautystat.com/", "_blank", "noopener");
  });
  var btn2 = document.createElement("button");
- btn2.innerText = "CBS Link";
+ btn2.innerText = "Earbuds FAQS";
  btn2.addEventListener("click", function(){
      //action
-     window.open("https://cbsdeals.com/collections/beautystat-cosmetics?_pos=1&_psq=beautysta&_ss=e&_v=1.0", "_blank", "noopener");
+     window.open("https://help.rayconglobal.com/en_us/categories/the-gaming-earbuds-Bk85oVSut", "_blank", "noopener");
  });
  var btn3 = document.createElement("button");
- btn3.innerText = "General FAQs";
+ btn3.innerText = "Speakers FAQs";
  btn3.addEventListener("click", function(){
    //action
-   window.open("https://support.beautystat.com/en-us/categories/6396a00dd14e5957c0fb6efc/faqs", "_blank", "noopener", "_blank", "noopener");     
+   window.open("https://help.rayconglobal.com/en_us/categories/speakers-B1zQt7oDF", "_blank", "noopener", "_blank", "noopener");     
  });
  var btn4 = document.createElement("button");
- btn4.innerText = "Youtube Channel";
+ btn4.innerText = "Headphones FAQs";
  btn4.addEventListener("click", function(){
    //action
-   window.open("https://www.youtube.com/@Beautystat/videos", "_blank", "noopener");     
+   window.open("https://help.rayconglobal.com/en_us/categories/headphones-SyHlfEiwK", "_blank", "noopener");     
  });
  var btn5 = document.createElement("button");
- btn5.innerText = "All products + FAQs";
+ btn5.innerText = "Youtube channel";
  btn5.addEventListener("click", function(){
      //action
-   window.open("https://support.beautystat.com/en-us/categories/6396a007d14e5957c0fb6ed2/products", "_blank", "noopener");
+   window.open("https://www.youtube.com/@RayconGlobal/videos", "_blank", "noopener");
  });
 
 

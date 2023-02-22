@@ -1,12 +1,10 @@
--Corrected a margin issue space of the cards
--added margin-bottom to cards
--added overlflow:auto to .about CSS
--changed the aligment properties for the cards
--corrected unnecesary hrefs in html file
--tried to implement a counter on clicks (failed)
--created ThermaConfort logo in Photoshop
--added ThermaComfort button
--fixed a dark theme issue not triggering when updating the labels of columns
--added a few mojis
--added hot news for upcoming CBSDeals
--added 4 buttons on that section + their info
+-changed original size on buttons
+-added cuonto user manual + its button
+-photoshoped BeautyStat logo for a better fit
+-changed its format from webp to png for editing
+-Fixed an outdated Reathlete link
+-added a column in the brands section
+-added future spaces with opacity and their IDs
+-Created a new subdomain to display all items of happy wax
+-updated the hot news
+
